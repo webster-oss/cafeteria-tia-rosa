@@ -8,7 +8,7 @@ produtos = [
 
 
 def cadastrar_produto():
-    nome = input("nomde do produto:")
+    nome = input("nome do produto:")
     preco = float(input("preço (R$):"))
     produto = {"nome": nome, "preco": preco}
     produtos.append(produto)
